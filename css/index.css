@@ -1,0 +1,68 @@
+
+        html,
+        body {
+          height: 100%;
+        }
+  
+        body {
+          background-color: #fff;
+          font-family: sans-serif;
+          overflow: hidden;
+        }
+  
+        h1 {
+          font-weight: normal;
+          font-size: 140%;
+          margin: 10px;
+        }
+  
+        #blocklyDiv {
+          position: relative;
+          float: left;
+          height: 100%;
+          width: 50%;
+          left: 0%;
+        }
+        #save {
+          float: left;
+          height: 100px;
+          width: 70px;
+          top: 100px;
+          left: 600px;
+        }
+        #main{
+          position: absolute;          
+          float: left;
+          width:  50%;
+          height: 400px;
+          left: 55%;
+          top: 0px;
+        }
+        #saving{
+          background-color: #4CAF50; /* 绿色 */
+          border: none;
+          color: white;
+          padding: 7px 16px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+         
+      }
+      
+    #loading{
+      background-color: #4CAF50; /* 绿色 */
+      border: none;
+      color: white;
+      padding: 7px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 17px;
+      margin: 4px 2px;
+      cursor: pointer;
+     
+  }
+      
